@@ -1,14 +1,14 @@
 .bg{
   background: url('/img/bg.png') no-repeat center center/cover;
+  min-height: 95% !important;
   height: 660px;
+  width: 100%;
 }
 
-.custom-padding{
-  
-  padding-left: 25%;
-}
-
-.custom-size {
-  height: 370px;
-  width : 271px;
+@media screen and (min-width: 100px) and (max-width: 768px) {
+  .bg {
+    background: url('/img/mobilebg.png') no-repeat center center/cover;
+    height: 500px;
+    width: 100%;
+  }
 }
