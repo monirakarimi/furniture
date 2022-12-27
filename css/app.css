@@ -1,5 +1,5 @@
 .bg{
-  background: url('./img/bg.png') no-repeat center center/cover;
+  background: url('../img/bg.png') no-repeat center center/cover;
   min-height: 95% !important;
   height: 660px;
   width: 100%;
@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 100px) and (max-width: 768px) {
   .bg {
-    background: url('./img/mobilebg.png') no-repeat center center/cover;
+    background: url('../img/mobilebg.png') no-repeat center center/cover;
     height: 500px;
     width: 100%;
   }
